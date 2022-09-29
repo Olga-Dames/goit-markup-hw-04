@@ -110,9 +110,13 @@ img {
 
 /* hero section */
 .hero-section {
-  text-align: center;
   padding: 200px 0;
+  margin: 0 auto;
   background-color: var(--secondary-bg-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  height: 600px;
+  max-width: 1600px;
+  text-align: center;
 }
 .hero-section h1 {
   margin-bottom: 30px;
